@@ -1,91 +1,94 @@
+body{
 /*============================= НАВИГАЦИЯ ===========================*/
 
-header {
-    background: url(../img/main.png) center center no-repeat;
-    background-color: #1f1b1d;
-    background-size: 100%;
-    height: 900px;
-    nav {
-        padding-top: 40px;
-        padding-bottom: 20px;
-    }
-    .col-md-1 a img{
-        width: 200px;
-        height: 120px;
-    }
-    ul {
-        // margin-left: 110px;
-        padding-left: 110px;
-    }
-    .col-auto a{
-        display: inline-block;
-        text-decoration: none;
-        list-style-type: none;
-        color: #ffffff;
-        cursor: pointer;
-        font-size: 20px;
-        &:hover {
-            text-decoration: underline;
+
+    header {
+        background: url(../img/main.png) center center no-repeat;
+        background-color: #1f1b1d;
+        background-size: 100%;
+        height: 900px;
+        nav {
+            padding-top: 40px;
+            padding-bottom: 20px;
         }
-        li {
-            margin: 25px;
-            font-weight: normal;
+        .col-md-1 a img{
+            width: 200px;
+            height: 120px;
         }
-        img {
-            display: block;
+        ul {
+            // margin-left: 110px;
+            padding-left: 110px;
         }
-    }
-    .row .col a img{
-        width: 50px;
-        height: 50px;
-    }
-    h1 {
-        font-size: 400%;
-    }
-    h5 {
-        font-size: 150%;
-    }
-    .col-12 a img {
-        width: 670px;
-        height: 300px;
-    }
-    .container {
-        color: #ffffff;
-    }
-    #scroll {
-        background: url(../img/scroll.svg) center center no-repeat;
-        padding-top: 250px;
-        width: 30px;
-        height: 50px;
-        max-width: 30px;
-        border: none;
-    }
+        .col-auto a{
+            display: inline-block;
+            text-decoration: none;
+            list-style-type: none;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 20px;
+            &:hover {
+                text-decoration: underline;
+            }
+            li {
+                margin: 25px;
+                font-weight: normal;
+            }
+            img {
+                display: block;
+            }
+        }
+        .row .col a img{
+            width: 50px;
+            height: 50px;
+        }
+        h1 {
+            font-size: 400%;
+        }
+        h5 {
+            font-size: 150%;
+        }
+        .col-12 a img {
+            width: 670px;
+            height: 300px;
+        }
+        .container {
+            color: #ffffff;
+        }
+        #scroll {
+            background: url(../img/scroll.svg) center center no-repeat;
+            padding-top: 250px;
+            width: 30px;
+            height: 50px;
+            max-width: 30px;
+            border: none;
+        }
 }
 
 /*================================ МЕНЮ ==================================*/
 
-.menu {
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    h2 span {
-        padding-bottom: 40px;
-        display: inline-block;
-        position: relative;
-        img {
+    #menu {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        h2 span {
+            display: inline-block;
+            padding-bottom: 40px;
+            position: relative;
+        }
+        h2 span:after {
+            background-attachment: scroll;
             display: block;
             position: absolute;
+            background-image: url(../img/h2_black.svg);
+            background-origin: padding-box;
+            background-color: rgba(0, 0, 0, 0);
+            background-position-x: 50%;
+            background-position-y: 50%;
+            bottom: 10px;
+            left: 50%;
             width: 150px;
             height: 15px;
+            margin-left: -75px;
         }
-        // span:after {
-        //     display: block;
-        //     position: absolute;
-        //     background: url(../img/h2_black.svg) center center;
-        //     bottom: 10px;
-        //     left: 50%;
-        //     width: 150px;
-        //     height: 15px;
-        // }
     }
 }
