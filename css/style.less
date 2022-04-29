@@ -67,6 +67,7 @@ body{
 /*================================ МЕНЮ ==================================*/
 
     #menu {
+        background: #f1eded;
         text-align: center;
         padding-top: 40px;
         padding-bottom: 20px;
@@ -75,35 +76,64 @@ body{
                 display: inline-block;
                 padding-bottom: 40px;
                 position: relative;
-                :after {
-                    background-attachment: scroll;
-                    display: block;
-                    position: absolute;
-                    background-image: url(../img/h2_black.svg);
-                    background-origin: padding-box;
-                    background-color: rgba(0, 0, 0, 0);
-                    background-position-x: 50%;
-                    background-position-y: 50%;
-                    bottom: 10px;
-                    left: 50%;
-                    width: 150px;
-                    height: 15px;
-                    margin-left: -75px;
-                }
             }
             a {
                 text-decoration: none;
                 color: #1f1b1d;
                 img {
-                    border-radius: 10px;
+                    border-radius: 7px;
                 }
-                span {
+                span{
                     font-weight: bold;
                     font-size: 25px;
                     position: relative;
                     color: #1f1b1d;
+                    margin-top: 0.5em;
+                    .two{
+                        display: block;
+                        margin-top: -10px;
+                        font-size: medium;
+                        color: #615675;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+            .button {
+                display: inline-block;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                border: #1f1b1d solid 2px;
+                border-radius: 21px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 5px 50px;
+                transition: 300ms;
+                color: #3b3639;
+                &:hover {
+                    background: #1f1b1d;
+                    color: #ffffff;
                 }
             }
         }
+    }
+
+/*================================ FORORAMA ==================================*/
+
+    #fotorama {
+        padding-bottom: 20px;
+        background: #1f1b1d;
+        h2 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 40px;
+            color:#ffffff;
+        }
+    }
+
+/*================================ ТОРТ ==================================*/
+
+
+    #cake {
+        background: #383135;
     }
 }
