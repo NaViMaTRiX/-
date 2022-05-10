@@ -1,18 +1,37 @@
-/*============================= HEADER ===========================*/
- header {
-    background-color: #1f1b1d;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    height: 100px;
+body {
 
 
-/*================== НАВИГАЦИЯ ===================*/
-    ul {
-        text-decoration: none;
-         color: #ffffff;
-        list-style: none;
+    /*============================= HEADER ===========================*/
+    header {
+        background-color: #1f1b1d;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        height: 100px;
+  
+  
+          /*================== НАВИГАЦИЯ ===================*/
+        .col-auto {
+            display: inline;
+            text-decoration: none;
+            list-style-type: none;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 20px;
+            &:hover {
+                text-decoration: underline;
+            }
+            ul {
+                text-decoration: none;
+                list-style-type: none;
+                li {
+                    margin: 25px;
+                    font-weight: normal;
+                }
+            }
+            img {
+                 display: block;
+            }
+        }
     }
-    img {
-        display: block;
-    }
+
 }
