@@ -11,48 +11,47 @@
             padding-bottom: 20px;
             position: relative;
         }
-        .section {
-            margin-left: 19px;
-            width: 411px;
-            padding: 20px;
-            &:hover {
-                transition: 0.2s;
-                border: red solid 4px;
-                border-radius: 10px;
-            }
-            .price {
-                padding-bottom: 10px;
-            }
-        }
-        a {
-            text-decoration: none;
-            color: #1f1b1d;
-            img {
-                border-radius: 7px;
-            }
-            span{
-                width: 370px;
-            }
-            .two{
-                font-weight: bold;
-                margin-top: -10px;
-                font-size: medium;
-                color: #1f1b1d;
-                font-size: 25px;
-                margin-top: 0px;
-            }
-            span {
-                display: block;
-                padding-bottom: 10px;
-                button {
-                    border: 1px solid black;
-                    border-radius: 7px;
-                    width: 200px;
-                    background-color: black;
-                    color: #ffffff;
+        .all {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 850px;
+            .section {
+                .item {
+                    transition: 300ms;
+                    padding: 20px;
+                    border: #f1eded solid 4px;
+                    border-radius: 8px;
                     &:hover {
-                        transition: 0.3s;
-                        background: red;
+                        background: white;
+                        border: orange solid 4px;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: #000000;
+                        .text {
+                            font-size: 25px;
+                        }
+                        img {
+                            border-radius: 3px;
+                        }
+                    }
+                    .buy {
+                        display: inline-block;
+                        margin-top: 15px;
+                        margin-bottom: 20px;
+                        border: #1f1b1d solid 2px;
+                        border-radius: 21px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding: 5px 50px;
+                        transition: 300ms;
+                        color: #3b3639;
+                        &:hover {
+                            border: #fff solid 2px;
+                            background: orange;
+                            color: #ffffff;
+                        }
                     }
                 }
             }
@@ -72,6 +71,65 @@
                 background: #1f1b1d;
                 color: #ffffff;
             }
+        }
+    }
+}
+
+
+/*============================= HEADER ===========================*/
+header {
+    background-color: #1f1b1d;
+    height: fit-content;
+
+
+/*================== НАВИГАЦИЯ ===================*/
+   
+    .col-auto {
+        ul {
+            margin-top: 10px;
+            text-decoration: none;
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                list-style-type: none;
+                color: #ffffff;
+                cursor: pointer;
+                font-size: 19px;
+                display: inline-block;
+                &:hover {
+                    text-decoration: underline;
+                }
+                li {
+                    margin: 25px;
+                    font-weight: normal;
+                }
+            }
+        }
+        img {
+            display: block;
+        }
+    }
+}
+
+
+/*================================ ПОДВАЛ ==================================*/
+
+
+footer {
+    height: 230px;
+    background: #1f1b1d;
+    color: #ffffff;
+    font-size: 15px;
+    .all {
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: #ffffff;
         }
     }
 }
