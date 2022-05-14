@@ -5254,16 +5254,16 @@ footer {
     .constructor_form .cake_result .decor_rectangle_1 {
       z-index: 3; }
     .constructor_form .cake_result .decor_circle_1 {
-      background-image: url("/img/constructor/cake/decor_circle_1.svg");
+      background-image: url("../img/order_a_cake/decor_circle_1.svg");
       background-position: center 57%; }
     .constructor_form .cake_result .decor_square_1 {
-      background-image: url("/img/constructor/cake/decor_square_1.svg");
+      background-image: url("../img/order_a_cake/decor_square_1.svg");
       -webkit-background-size: 84%;
       -o-background-size: 84%;
       background-size: 84%;
       background-position: center 39%; }
     .constructor_form .cake_result .decor_rectangle_1 {
-      background-image: url("/img/constructor/cake/decor_rectangle_1.svg");
+      background-image: url("../img/order_a_cake/decor_rectangle_1.svg");
       -webkit-background-size: 99%;
       -o-background-size: 99%;
       background-size: 99%;
@@ -5273,18 +5273,18 @@ footer {
     .constructor_form .cake_result .decor_rectangle_2 {
       z-index: 2; }
     .constructor_form .cake_result .decor_circle_2 {
-      background-image: url("/img/constructor/cake/decor_circle_2.svg");
+      background-image: url("../img/order_a_cake/decor_circle_2.svg");
       -webkit-background-size: 100.5%;
       -o-background-size: 100.5%;
       background-size: 100.5%; }
     .constructor_form .cake_result .decor_square_2 {
-      background-image: url("/img/constructor/cake/decor_square_2.svg");
+      background-image: url("../img/order_a_cake/decor_square_2.svg");
       background-position: center 39%;
       -webkit-background-size: 84.9%;
       -o-background-size: 84.9%;
       background-size: 84.9%; }
     .constructor_form .cake_result .decor_rectangle_2 {
-      background-image: url("/img/constructor/cake/decor_rectangle_2.svg");
+      background-image: url("../img/order_a_cake/decor_rectangle_2.svg");
       -webkit-background-size: 100.5%;
       -o-background-size: 100.5%;
       background-size: 100.5%; }
@@ -5296,31 +5296,31 @@ footer {
       -o-background-size: 100.5%;
       background-size: 100.5%; }
     .constructor_form .cake_result .decor_circle_3 {
-      background-image: url("/img/constructor/cake/decor_circle_3.svg");
+      background-image: url("../img/order_a_cake/decor_circle_3.svg");
       background-position: center 59%; }
     .constructor_form .cake_result .decor_square_3 {
-      background-image: url("/img/constructor/cake/decor_square_3.svg");
+      background-image: url("../img/order_a_cake/decor_square_3.svg");
       background-position: center 40%;
       -webkit-background-size: 84.6%;
       -o-background-size: 84.6%;
       background-size: 84.6%; }
     .constructor_form .cake_result .decor_rectangle_3 {
-      background-image: url("/img/constructor/cake/decor_rectangle_3.svg"); }
+      background-image: url("../img/order_a_cake/decor_rectangle_3.svg"); }
     .constructor_form .cake_result .decor_circle_4,
     .constructor_form .cake_result .decor_square_4,
     .constructor_form .cake_result .decor_rectangle_4 {
       z-index: 5; }
     .constructor_form .cake_result .decor_circle_4 {
-      background-image: url("/img/constructor/cake/decor_circle_4.svg");
+      background-image: url("../img/order_a_cake/decor_circle_4.svg");
       background-position: 8px -11%; }
     .constructor_form .cake_result .decor_square_4 {
-      background-image: url("/img/constructor/cake/decor_square_4.svg");
+      background-image: url("../img/order_a_cake/decor_square_4.svg");
       background-position: 69% -17%;
       -webkit-background-size: 85%;
       -o-background-size: 85%;
       background-size: 85%; }
     .constructor_form .cake_result .decor_rectangle_4 {
-      background-image: url("/img/constructor/cake/decor_rectangle_4.svg");
+      background-image: url("../img/order_a_cake/decor_rectangle_4.svg");
       background-position: 8px -11%; }
     .constructor_form .cake_result .decor_circle_5,
     .constructor_form .cake_result .decor_square_5,
@@ -5330,22 +5330,22 @@ footer {
       -o-background-size: 100.5%;
       background-size: 100.5%; }
     .constructor_form .cake_result .decor_circle_5 {
-      background-image: url("/img/constructor/cake/decor_circle_5.svg");
+      background-image: url("../img/order_a_cake/decor_circle_5.svg");
       background-position: center 59%; }
     .constructor_form .cake_result .decor_square_5 {
-      background-image: url("/img/constructor/cake/decor_square_5.svg");
+      background-image: url("../img/order_a_cake/decor_square_5.svg");
       -webkit-background-size: 84%;
       -o-background-size: 84%;
       background-size: 84%;
       background-position: center 39%; }
     .constructor_form .cake_result .decor_rectangle_5 {
-      background-image: url("/img/constructor/cake/decor_rectangle_5.svg");
+      background-image: url("../img/order_a_cake/decor_rectangle_5.svg");
       -webkit-background-size: 99.5%;
       -o-background-size: 99.5%;
       background-size: 99.5%;
       background-position: center 40%; }
     .constructor_form .cake_result .foundation {
-      background-image: url("/img/constructor/cake/foundation.svg");
+      background-image: url("../img/order_a_cake/foundation.svg");
       bottom: 0;
       left: 5%;
       height: 57%;
