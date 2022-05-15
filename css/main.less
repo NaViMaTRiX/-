@@ -4,43 +4,48 @@ body{
 
     header {
         background: url(../img/main.jpg) center center no-repeat;
-        background-color: #1f1b1d;
         background-size: 100%;
         height: 900px;
         nav {
-            padding-top: 40px;
+            padding-top: 30px;
             padding-bottom: 20px;
-        }
-        .col-md-1 a img{
-            width: 200px;
-            height: 120px;
-        }
-        ul {
-            // margin-left: 110px;
-            padding-left: 110px;
-        }
-        .col-auto a{
-            display: inline-block;
-            text-decoration: none;
-            list-style-type: none;
-            color: #ffffff;
-            cursor: pointer;
-            font-size: 20px;
-            &:hover {
-                text-decoration: underline;
+            .main {
+                display: flex;
+                height: auto;
+                align-items: center;
+                justify-content: space-around;
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    list-style-type: none;
+                    color: #ffffff;
+                    cursor: pointer;
+                    font-size: 22px;
+                    font-weight: 400;
+                    &:hover {
+                        color: #e9e5e5;
+                        text-decoration: underline;
+                    }
+                    li {
+                        margin: 25px;
+                        font-weight: normal;
+                    }
+                    img{
+                        display: block;
+                        width: 210px;
+                        height: 100px;
+                    }
+                    #basket {
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+                .tel {
+                    font-size: 14px;
+                }
             }
-            li {
-                margin: 25px;
-                font-weight: normal;
-            }
-            img {
-                display: block;
-            }
         }
-        .row .col a img{
-            width: 50px;
-            height: 50px;
-        }
+        
         h1 {
             font-size: 400%;
         }
@@ -150,6 +155,11 @@ body{
                 flex-direction: column;
                 justify-content: center;
                 height: 600px;
+                a:hover {
+                    background: #ffffff;
+                    color: #1f1b1d;
+                    font-weight: 600;
+                }
                 span {
                     font-size: 38px;
                     font-weight: bold;
@@ -223,3 +233,19 @@ body{
         }
     }
 }
+
+
+/*================================ СКРОЛЛ ==================================*/
+
+
+    body::-webkit-scrollbar {
+    width: 7px; }
+    
+    body::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+    
+    body::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 10px; }
