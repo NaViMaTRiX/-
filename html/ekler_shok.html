@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/const.css">
+    <link rel="stylesheet/less" href="../css/menu.less" />
+
+    <title>Эклер шоколадный</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="main">
+                    <div class="items">
+                        <a href="index.html">
+                            <img src="../img/logo.png" title="Логотип Пекарни">
+                        </a>
+                    </div>
+                    <div class="items">
+                        <ul>
+                            <a href="menu.html">
+                                <li>Меню</li>
+                            </a>
+                            <a href="delivery.html">
+                                <li>Доставка</li>
+                            </a>
+                            <a href="contacts.html">
+                                <li>Контакты</li>
+                            </a>
+                            <a href="order_a_cake.html">
+                                <li>Заказать торт</li>
+                            </a>
+                            <a class="tel" href="tel:+7(953)2889535"> <b>Телефон:</b> 8 (953) 288 95 35</a>
+                        </ul>	
+                    </div>
+                    <div class="items">
+                        <a href="../html/basket.html">
+                            <img id="basket" src="../img/basket.png" alt="Корзина" title="Корзина">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="eda">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../img/product/pirojny/ekler_shok.jpg" alt="Эклер шоколадный" title="Эклер шоколадный">
+                </div>
+                <div class="col-md-6">
+                    <h2>Эклер шоколадный</h2>
+                    <p><b>Состав:</b> Мука пшеничная хлебопекарная высшего сорта, сахар, яйцо куриное, молоко 3,2%, масло сливочное 82%, соль, крем ванильный, помадка сахарная, глазурь шоколадная, паста миндальная (миндаль, сахар, масло сливочное 82%), сахарная пудра, арахисовые лепестки.</p>
+                    <p><b>Энергетическая ценность:</b> 332 ккал/1390 кДж</p>
+                    <p><b>Масса нетто:</b> 60 грамм</p>
+                    <b>Пищевая ценность в 100 г продукта:</b>
+                    <ul class="food_value">
+                        <li>Белки 6,4 г</li>
+                        <li>| Жиры 4,5 г</li>
+                        <li>| Углеводы 68,1 г</li>
+                    </ul>
+                    <p class="text-center"><a class="button" onclick="windous()">Добавить в корзину</a></p>
+                </div>
+            </div>
+            <div class="text">
+                <p>Шоколадные эклеры – сладкая французская классика, завоевавшая весь мир. Вытянутые заварные пирожные с шоколадным кремом стали популярны в XIX веке. Авторство приписывается знаменитому парижскому кондитеру Мари-Антуану Карему.</p>
+                <p>Пирожные обычно делают с заварным или масляным кремом. Масляный эклер с шоколадной начинкой можно купить в сети Калужских пекарен "Название" в Калуге. Натуральное сливочное масло 82% жирности, ванильный крем и какао-масло создают насыщенный шоколадный вкус пирожных. Гладкая, блестящая шоколадная глазурь из качественного какао-масла дополняет вкус эклеров.</p>
+                <p class="last">В наших шоколадных эклерах мы используем только цельное молоко и коровье масло без растительных добавок, поэтому вкус десертов получается сливочным, обволакивающим без комков и неприятного привкуса, свойственного маргарину.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="all">
+                <div class="col-4">
+                    <a href="index.html"><img src="../img/logo.png" alt="Логотип Пекарни"class="row responsive center-block" width="200px"></a>
+                </div>
+                <div class="col-4">
+                    <a href="../html/contacts.html">
+                        <li>Контакты</li>
+                    </a>
+                    <a href="../html/order_a_cake.html">
+                        <li>Конструктор тортов</li>
+                    </a>
+                    <a href="../html/delivery.html">
+                        <li>Доставка</li>
+                    </a>
+                    <a href="../html/pravila.html">
+                        <li>Правила cokie</li>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <span><a href="tel:+7(953)2889535"> <b>Телефон:</b> 8 (953) 288 95 35</a></span>
+                    <p><b>Будни:</b> 8 <sup>00</sup> - 19 <sup>00</sup> <br> <b>Выходные:</b> 9 <sup>00</sup> - 16 <sup>00</sup></p>
+                    <a href="https://vk.com/n.klischenko">Разработчик Сайта</a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col text-center">
+                    © Интернет-магазин Пекарни «Название» в г. Калуга. 2022. Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function windous(){
+	        alert("Вы добавили товар в корзину")
+        }
+    </script>
+
+    <script src="../js/less@4.js" ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</body>
+</html>
