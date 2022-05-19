@@ -1,12 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet/less" href="../css/menu.less" />
+
+    <title>Кофе</title>
+
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="container">
+                <div class="main">
+                    <div class="items">
+                        <a href="index.html">
+                            <img src="../img/logo.png" title="Логотип Пекарни">
+                        </a>
+                    </div>
+                    <div class="items">
+                        <ul>
+                            <a href="menu.html">
+                                <li>Меню</li>
+                            </a>
+                            <a href="delivery.html">
+                                <li>Доставка</li>
+                            </a>
+                            <a href="contacts.html">
+                                <li>Контакты</li>
+                            </a>
+                            <a href="order_a_cake.html">
+                                <li>Заказать торт</li>
+                            </a>
+                            <a class="tel" href="tel:+7(953)2889535"> <b>Телефон:</b> 8 (953) 288 95 35</a>
+                        </ul>	
+                    </div>
+                    <div class="items">
+                        <a href="../html/basket.html">
+                            <img id="basket" src="../img/basket.png" alt="Корзина" title="Корзина">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contacts">
+        <div class="container">
+            <h2 class="text-center">Контакты</h2>
+            <div class="all">
+                <div class="item item_1">
+                    <div class="col-md-6">
+                        <img src="../img/contact/1.jpg" alt="Первая пекарня" title="Первая пекарня">
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Грабцевское шоссе, 108к1, Калуга, Россия</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item item_2">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>улица Чичерина, 13, Калуга, Россия</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img id="two" src="../img/contact/2.jpg" alt="Вторая пекарня" title="Вторая пекарня">
+                    </div>
+                </div>
+                <div class="item item_3">
+                    <div class="col-md-6">
+                        <img src="../img/contact/3.jpg" alt="Третья пекарня" title="Третья пекарня">
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>улица Чичерина, 13, Калуга, Россия</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <div class="map text-center text text_white">
+            <div class="h2">Где нас найти</div>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0688b3c63edef62a5d00b527d0f01abedc02e9adc94886fb6d58e23cf1fbab94&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="all">
+                <div class="col-4">
+                    <a href="index.html"><img src="../img/logo.png" alt="Логотип Пекарни"class="row responsive center-block" width="200px"></a>
+                </div>
+                <div class="col-4">
+                    <a href="../html/contacts.html">
+                        <li>Контакты</li>
+                    </a>
+                    <a href="../html/order_a_cake.html">
+                        <li>Конструктор тортов</li>
+                    </a>
+                    <a href="../html/delivery.html">
+                        <li>Доставка</li>
+                    </a>
+                    <a href="../html/pravila.html">
+                        <li>Правила cokie</li>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <span><a href="tel:+7(953)2889535"> <b>Телефон:</b> 8 (953) 288 95 35</a></span>
+                    <p><b>Будни:</b> 8 <sup>00</sup> - 19 <sup>00</sup> <br> <b>Выходные:</b> 9 <sup>00</sup> - 16 <sup>00</sup></p>
+                    <a href="https://vk.com/n.klischenko">Разработчик Сайта</a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col text-center">
+                    © Интернет-магазин Пекарни «Название» в г. Калуга. 2022. Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function windous(){
+	        alert("Вы добавили товар в корзину")
+        }
+    </script>
+
+    <script src="../js/less@4.js" ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </body>
 </html>

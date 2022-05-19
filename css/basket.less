@@ -58,7 +58,8 @@ header {
 
 
 #basket {
-    height: 549px;
+    display: flex;
+    height: 630px;
         * {
             box-sizing: border-box;
         }
@@ -72,8 +73,8 @@ header {
             font-family: 'Roboto', sans-serif;
         }
         .shopping-cart {
-            width: 750px;
-            height: 423px;
+            width: 850px;
+            height: 360px;
             margin: 80px auto;
             background: #FFFFFF;
             box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
@@ -233,6 +234,36 @@ header {
         .description .name {
             font-size: 17px;
         }
+        
+h2 {
+    padding-top: 100px;
+    padding-right: 250px;
+    height: fit-content;
+}
+input {
+    padding: 10px;
+}
+label {
+    width: 350px;
+    display: block;
+}
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: #1f1b1d solid 2px;
+    border-radius: 21px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 50px;
+    transition: 300ms;
+    color: #3b3639;
+    &:hover {
+        background: #1f1b1d;
+        color: #ffffff;
+    }
+}
+
 }
 
 

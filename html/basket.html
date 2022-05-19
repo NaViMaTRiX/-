@@ -45,13 +45,10 @@
         </nav>
     </header>
 
+    <h2 class="text-center" id="h">Корзина</h2>
     <section id="basket">
         <div class="shopping-cart">
-            <!-- Title -->
-            <div class="title">
-                Корзина
-            </div>
-            
+
             <!-- Товар #1 -->
             <div class="item">
                 <div class="buttons">
@@ -139,6 +136,18 @@
                 <div class="total-price">170 ₽</div>
             </div>
         </div>
+        <div class="order">
+            <h2>Оформление заказа</h2>
+            <div class="form-group input field-constructor-name required">
+                <label for="">
+                    <input placeholder="Ваше имя" type="text" id="constructor-name" class="form-control" name="Constructor[name]" maxlength="155" aria-required="true">
+                    <input placeholder="Ваше фамилия" type="text" id="constructor-name" class="form-control" name="Constructor[name]" maxlength="155" aria-required="true">
+                    <input placeholder="Эл. почта" type="text" id="constructor-name" class="form-control" name="Constructor[name]" maxlength="155" aria-required="true">
+                    <input placeholder="Телефон" type="text" id="constructor-name" class="form-control" name="Constructor[name]" maxlength="155" aria-required="true">
+                </label>
+                <button class="button" onclick="windous()">Оплатить</button>
+            </div>
+        </div>
     </section>
 
     <footer>
@@ -174,6 +183,12 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function windous(){
+	        alert("Сумма оплаты 278 ₽")
+        }
+    </script>
 
     <script src="../js/less@4.js" ></script>
     <script src="../js/basket.js"></script>
